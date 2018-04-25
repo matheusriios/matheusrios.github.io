@@ -1,0 +1,548 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li{
+	list-style: none;
+}
+
+@media(max-width: 577px){
+
+	.site-mobile{
+		/*	background-image: url('../img/wallpapers.jpg');    */
+	    background-size: cover;
+	    background-position: top;    
+	    width: 100%;    
+	}
+
+	.box-title{	
+		width: 100%;
+		display: flex;
+		justify-content: center;	
+	}
+
+	.image-title{
+		 width: 50px; 
+		 height: 50px;	
+	}
+
+	.coresmenus{
+		color: #76b852;
+	}
+
+
+	/* Parte 2 */
+	.conteudos{
+		width: 100%;	
+	}
+
+	.box-div{
+		width: 100%;		
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.box-div-2{
+		width: 100%;	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.box-sobre, .box-contato, .box-habilidades{
+		width: 94%;
+		margin-top: 20px;
+		padding: 15px;
+		border-radius: 2%;
+	}
+
+	.box-contato, .box-sobre, .box-habilidades{
+		background-color: #76b852;
+	}
+
+
+
+	.title-sobre, .title-contato{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.title-sobre h3, .title-contato h3, .title-habilidades h3{
+		color: #323b43;	
+		font-family: 'Do Hyeon', sans-serif;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.img-sobre{
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+	}
+		
+	.container-filha-img-sobre{
+		width: 100px;
+		height: 100px;
+	}
+
+	.descricao-sobre, .contato-descripcao{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.contato-descripcao{
+		flex-direction: column;
+	}
+
+	.descricao-sobre span, .contato-descripcao span{
+		text-align: center;
+		font-size: 15px;
+		margin-bottom: 15px;
+		margin-top: 10px;
+	}
+
+	.botao-sobre{
+		width: 100%;
+		margin-top: 14px;	
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.botao-sobre a {
+		font-size: 10px;	
+	}
+
+	.icon-email{	
+		margin-top: 20px;
+	}
+
+	.fa-envelope{
+		font-size: 35px;
+		color: #d9ffc4;
+	}
+
+	.email{
+		margin-bottom: 50px;
+	}
+
+	.icon-numero, .icon-email{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.numero-whats, .icon-email, .email{
+		color: white;
+		font-size: 20px;
+		font-style: italic;
+	}
+
+	.whats{
+		font-size: 35px;
+		color: #d9ffc4;
+		margin-bottom: 3px;	
+	}
+
+	.div-habilidades{	
+		width: 100%;
+		/*display: flex;
+		justify-content: center;
+		align-items: center;*/	
+		padding: 10px;
+	}
+
+	.div-habilidades-2{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.hab-1-2{
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 90%;
+		flex-wrap: wrap;
+	}
+
+	.habs{
+		border: 5px solid white;
+		margin: 1px;
+		width: 49%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.habs:hover{
+		border: 5px solid black;
+	}
+
+	.html, .css, .js, .c{	
+		font-size: 90px;
+	}
+
+	.c{
+		color: white;
+	}
+
+	.c:hover{
+		color: black;
+	}
+
+	.html{
+		color: white;
+	}
+
+	.html:hover{
+		color: black;
+	}
+
+	.css{
+		color: white;
+	}
+
+	.css:hover{
+		color: black;
+	}
+
+	.js{
+		color: white;
+	}
+
+	.js:hover{
+		color: black;
+	}
+
+	.rodape{
+		margin-top: 15px;
+		border-radius: 5px;	
+		padding: 25px;	
+		width: 100%;
+	}
+
+	.redes-sociais{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;	
+	}
+
+	.face, .linkedin, .github, .insta{
+		color: black;	
+		font-size: 28px;
+		margin: 10px;
+		color: #007bff;
+	}
+	.site-desktop{
+		display: none;
+	}
+}
+
+@media (min-width: 577px){
+	.site-mobile{
+		display: none;
+	}
+
+	.background-desktop{
+		background: #ced7df;
+		height: 500px;
+		width: 100%;
+		padding: 70px;		
+	}
+
+	.title-desktop{
+		display: flex;
+		width: 100%;
+		justify-content: flex-start;
+	}
+
+	.title-desktop h1{
+		font-weight: 600;
+		color: #23232b;
+		font-family: 'Jockey One', sans-serif;
+		font-size: 4.5em;
+	}
+
+	.dividir-nav-icon{
+		display: flex;
+		align-items: center;
+	}
+
+	.icone{
+		font-size: 220px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 70%;		
+		margin-bottom: 15px;
+	}
+
+	.lamp{
+		color: #FFAA00;		
+	}
+
+	.menu{		
+		margin-top: 15px;
+		width: 70%;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+
+	.list-item{
+		color: #323b43;
+		font-weight: 600;
+		text-decoration: none;		
+	}
+
+	.home, .sobre, .projetos, .habilidades, .contato{
+		background-color: white;
+		margin: 5px;
+		padding: 8px;
+		text-align: center;
+		border-radius: 5%;
+	}	
+
+	.home{
+		width: 35%;		
+	}
+
+	.sobre{
+		width: 45%;		
+	}
+
+	.projetos{
+		width: 55%;		
+	}
+
+	.contato{
+		width: 48%
+	}
+
+	.habilidades{
+		width: 38%;
+	}
+
+	.background-sobre{
+		background-color: #76b852;
+		padding: 60px 0;
+		height: 500px;
+		width: 100%;
+	}
+
+	.container-sobre{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.title-sobre h3{
+		font-size: 3em;
+		color: #323b43;	
+		font-family: 'Do Hyeon', sans-serif;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.box-centralizar{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		flex-direction: column;
+		height: 300px;
+	}
+
+	.box-quemsou, .box-expProfi{
+		width: 90%;				
+	}
+
+	.box-expProfi{
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
+
+	.title-quemsou, .title-expProfi{		
+		display: flex;
+		justify-content: center;		
+	}	
+
+	.title-quemsou h4{
+		color: #d9ffc4;	
+		font-weight: 600;
+		font-size: 25px;				
+		font-family: 'Jockey One', sans-serif;				
+	}
+
+	.title-expProfi h4{
+		color: #d9ffc4;	
+		font-weight: 600;
+		font-size: 25px;				
+		font-family: 'Jockey One', sans-serif;		
+	}	
+
+	.background-habilidades{
+		background-color: #323b43;
+		width: 100%;
+		height: 500px;
+	}
+
+	.title-habilidades{				
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.title-habilidades h3{
+		color: #323b43;	
+		font-family: 'Do Hyeon', sans-serif;
+		margin-top: 85px;
+		font-size: 3em;
+		text-align: center;	
+	}
+
+	.icons-habilidades{
+		width: 100%;		
+		height: 280px;		
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;	
+	}
+
+	.lista{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 80%;		
+	}
+
+	.item-list{
+		color: white;
+		font-size: 10em;				
+	}
+
+	.background-projetos{
+		background: #ced7df;		
+		width: 100%;
+	}
+
+	.box-projetos{
+		width: 100%;				
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.container-projetos{
+		width: 90%;				
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div3-projetos{
+		width: 90%;		
+	}
+
+	.lista-projetos{
+		padding: 10px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.item-projeto{
+		background-color: white;
+		width: 260px;
+		height: 220px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 2%;
+		box-sizing: border-box;
+	}
+
+	.imagem-projeto{
+		width: 250px;
+		height: 210px;
+	}
+
+	.background-newsletter{
+		background-color: #76b852;		
+		width: 100%;
+		padding: 15px;
+	}
+
+	.container-newsletter{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.fale-conocos{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 100%;
+		padding: 25px;
+	}
+
+	.dividir{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+	}
+
+	.fa-whatsapp, .fa-envelope{
+		font-size: 2em;
+		margin-right: 8px;
+	}
+
+
+	.numero-whats, .email-faleconosco{
+		font-size: 1.5em;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	.background-footer{
+		width: 100%;		
+		background-color: #323b43;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.redes-sociais{
+		width: 30%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.facebook, .github, .instagram, .linkedin{
+		color: white;
+		margin: 1em;
+		font-size: 1.2em;
+	}
+}
